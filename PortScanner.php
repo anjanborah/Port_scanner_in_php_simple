@@ -89,7 +89,7 @@ class Scan {
     print "\n";
   }
   
-  public function scan() {
+  private function scan() {
     print "\tscan start port number - ";
     $start_port_number = ( integer )trim( fgets( STDIN ) );
     print "\tscan end port number   - ";
